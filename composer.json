@@ -1,0 +1,23 @@
+{
+  "name" : "nia/collection-queue",
+  "description" : "Generic queue component.",
+  "require" : {
+    "php" : ">=7.0.0"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "queue", "stack", "fifo", "lifo" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\Collection\\Queue\\" : "sources/",
+      "Test\\Nia\\Collection\\Queue\\" : "tests/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
